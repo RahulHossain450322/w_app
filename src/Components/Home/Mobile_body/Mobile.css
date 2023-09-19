@@ -1,0 +1,24 @@
+.body {
+  padding: 110px 60px;
+  background-color: aliceblue;
+}
+.single_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile {
+  display: none !important;
+}
+@media screen and (max-width: 576px) {
+  .mobile {
+    display: block !important;
+    padding-top: 350px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .single_content {
+    flex-direction: column !important;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,18 @@
+.card_body {
+  display: flex;
+  justify-content: space-between;
+}
+.card_body_single {
+  padding-top: 30px;
+}
+.about_who {
+  background-color: white !important;
+  border: none !important;
+  padding: 30px;
+  box-shadow: 0 0 40px 1px rgb(204, 203, 203);
+}
+@media screen and (max-width: 576px) {
+  .card_body {
+    flex-direction: column !important;
+  }
+}

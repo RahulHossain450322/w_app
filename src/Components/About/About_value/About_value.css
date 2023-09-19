@@ -1,0 +1,21 @@
+.about_value {
+  margin-top: 60px;
+}
+.about_value_des {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .about_value_des {
+    flex-direction: column;
+    text-align: left !important;
+    align-items: flex-start !important;
+  }
+  .value_margin {
+    margin-top: 10px !important;
+  }
+  .hr_margin {
+    margin: 30px 0;
+  }
+}

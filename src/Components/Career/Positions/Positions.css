@@ -1,0 +1,30 @@
+.position {
+  background-color: aliceblue;
+}
+.single_positions_card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 30px 2px rgb(202, 202, 202);
+  margin-top: 40px;
+}
+.position_title {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.radius_50 {
+  border-radius: 50px !important;
+}
+@media screen and (max-width: 576px) {
+  .single_positions_card {
+    flex-direction: column !important;
+  }
+  .position_btn {
+    width: 75% !important;
+    margin-top: 25px !important;
+  }
+}

@@ -1,0 +1,38 @@
+.card_hero {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card_img {
+  width: 400px !important;
+}
+.card_content {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2rem;
+  background-color: black !important;
+}
+@media screen and (max-width: 576px) {
+  .card_hero {
+    flex-direction: column !important;
+    position: relative !important;
+  }
+  .card_content {
+    background-color: black !important;
+  }
+  .card_img {
+    position: absolute !important;
+    transform: translateX(-50%);
+    top: 280px;
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 780px) {
+  .card_hero {
+    flex-direction: column !important;
+  }
+  .card_img {
+    margin-bottom: 20px !important;
+  }
+}
